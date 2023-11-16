@@ -13,12 +13,18 @@ $('.insta_heart_icon').click(function(){
                                              // 빨간 하트 숨기기;
 });
 
-  
+$('.insta_bookmark_outline').click(function(){
+   $('.insta_bookmark_outline').hide();
+   $('.insta_bookmark').show();                 // 빈북마크 숨김;
+                                               // 북마크 보이기;
+});
+$('.insta_bookmark').click(function(){
+   $('.insta_bookmark_outline').show();         // 빈북마크 보이기;
+   $('.insta_bookmark').hide();                //  북마크 숨기기;
+}); 
 
-
-
-
-
+//댓글창에 게시 나타내기
+$('.')
 
 
 
