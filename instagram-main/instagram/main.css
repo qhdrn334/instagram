@@ -1,0 +1,30 @@
+@import "reset.css";
+
+body {
+   background: white;
+}
+
+/* header */
+
+.insta_write_logo {
+   background: url('../img/background01.png')no-repeat -134px -84px;
+   width: 125px;
+   height: 36px;
+}
+
+#header {
+   width: 100%;
+   position: absolute;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#header .inner {
+   width: 950px;
+   height: 77px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+
+
+/* main */
